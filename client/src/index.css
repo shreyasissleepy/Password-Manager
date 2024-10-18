@@ -1,0 +1,157 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.Home{
+  background: rgb(34, 34, 56);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #fff;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+body{
+  background: rgb(34, 34, 56);
+  color: #fff;
+}
+
+.Home h1{
+  color: #ddd;
+  font-size: 40px;
+  position: relative;
+}
+.Home .logo{
+  color: rgb(0, 179, 0);
+}
+
+.Home span{
+  color: #cececec9;
+}
+
+.quote{
+  padding: 10px;
+}
+
+button{
+  color: #fff;
+  background: rgb(1, 165, 1);
+  border: 0;
+  border-radius: 0.5rem;
+  padding: 10px 15px;
+  margin-left: 10px;
+}
+
+button:hover{
+  background: rgb(0, 255, 0);
+}
+
+.Login input{
+  background: #ddd;
+  color: #000;
+  border: 0;
+  border-radius: 0.5rem;
+  padding: 10px 15px;
+  margin-top: 10px;
+}
+
+.Login button{
+  margin-top: 10px;
+}
+
+.Login{
+  font-family: sans-serif;
+  text-align: center;
+  padding-top: 16%;
+}
+
+
+.Signup input{
+  background: #ddd;
+  color: #000;
+  border: 0;
+  border-radius: 0.5rem;
+  padding: 10px 15px;
+  margin-top: 10px;
+}
+
+.Signup button{
+  margin-top: 10px;
+}
+
+.Signup{
+  font-family: sans-serif;
+  text-align: center;
+  padding-top: 16%;
+}
+
+.errbox{
+  color: #FF0000;
+}
+
+.Dashboard{
+  color: #ddd;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding-top: 20px;
+  padding-left: 30px;
+}
+
+.Dashboard h2{
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.passwords{
+  background: #1f1f33;
+  height: 400px;
+  width: 700px;
+  border-radius: 0.7rem;
+  padding: 20px;
+}
+
+p{
+  display: flex;
+  gap: 70px;
+}
+
+.funcarea{
+  display: flex;
+}
+
+.addPwd{
+  width: 300px;
+  height: auto;
+  padding: 30px 30px;
+  background: #1a1a2b;
+  text-align: center;
+}
+
+.addPwd input{
+  background: #ddd;
+  color: #000;
+  border: 0;
+  border-radius: 0.5rem;
+  padding: 10px 15px;
+  margin-top: 10px;
+}
+
+.addPwd button{
+  margin-top: 30px;
+}
+
+td{
+  padding: 10px;
+}
+
+.delete{
+  background: #FF0000;
+}
+
+input{
+  outline: none;
+}
